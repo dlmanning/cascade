@@ -73,7 +73,7 @@ function visit (accum, cb) {
 
     if (toType(ref[property]) === 'object') {
       accum.push({
-         path: path + (path && ':') + property,
+         path: path + (path && '_') + property,
          lineage: currentNode.lineage.concat(ref[property])
        })
     }
