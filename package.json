@@ -11,9 +11,15 @@
     "test": "node test/test"
   },
   "author": "David Manning",
-  "keywords": ["react", "style", "css", "inline", "styles"],
+  "keywords": [
+    "react",
+    "style",
+    "css",
+    "inline",
+    "styles"
+  ],
   "license": "ISC",
   "dependencies": {
-    "deep-extend": "^0.4.0"
+    "deep-extend": "^0.5.1"
   }
 }
